@@ -25,7 +25,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir -p android-project
-          unzip -q Cyber_Gauntlet_D6_Android_Project-2-3.zip -d android-project
+          unzip -q Cyber_Gauntlet_D6_Android_Project-2-3-1.zip -d android-project
           test -f android-project/settings.gradle
           test -f android-project/app/build.gradle
       - name: Build APK
